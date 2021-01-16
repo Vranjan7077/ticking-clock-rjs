@@ -57,3 +57,9 @@ today.toGMTString()		//'Sun,09 Aug 2020 06:44:30 GMT'
 
 today.toUTCString()		//'Sun,09 Aug 2020 06:44:30 GMT'
 ```
+
+```
+Date.parse('9 Aug 2020')	//1596895200000
+
+- where parse return number miliiseconds since January 1,1970. Returns NaN if invalid
+```
