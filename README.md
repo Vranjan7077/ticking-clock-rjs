@@ -13,7 +13,7 @@ today.getYear()			// 120 ?
 today.getHours()		// 11
 today.getMinutes()		// 40
 today.getSeconds()		// 51
-today.getMilliseconds()	// 24
+today.getMilliseconds()	  // 24
 today.getTime()			// 1596937251025
 today.getTimezoneOffset()	// -600
 ```
