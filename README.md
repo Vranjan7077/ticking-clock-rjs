@@ -49,15 +49,11 @@ today.setUTCMilliseconds(22)
 
 ```
 const today = new Date()
-today.toString()      
-// 'Sun Aug 09 2020 15:43:30 GMT+1000 (Australain Eastern Standard Time)'
+today.toString()      	// 'Sun Aug 09 2020 15:43:30 GMT+1000 (Australain Eastern Standard Time)'
 
-today.toLocaleString() 
-//'09/08/2020,  15:43:30'
+today.toLocaleString() 	//'09/08/2020,  15:43:30'
 
-today.toGMTString()
-//'Sun,09 Aug 2020 06:44:30 GMT'
+today.toGMTString()		//'Sun,09 Aug 2020 06:44:30 GMT'
 
-today.toUTCString()
-//'Sun,09 Aug 2020 06:44:30 GMT'
+today.toUTCString()		//'Sun,09 Aug 2020 06:44:30 GMT'
 ```
