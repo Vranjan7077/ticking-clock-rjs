@@ -61,5 +61,11 @@ today.toUTCString()		//'Sun,09 Aug 2020 06:44:30 GMT'
 ```
 Date.parse('9 Aug 2020')	//1596895200000
 
-- where parse return number miliiseconds since January 1,1970. Returns NaN if invalid
+- where parse return number milliseconds since January 1,1970. Returns NaN if invalid
+```
+
+```
+let utcDate = new Date(Date.UTC(2020, 7, 9, 0, 0,0));
+utcDate		//2020-08-09T00:00:00.000Z
+utcDate.valueOf()	///1596895200000(same as parse)
 ```
